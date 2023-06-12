@@ -1,6 +1,14 @@
-# program_final
+----------------------------------------------------------------------------------------------------------------------------------------
+# warning
+For your notice that if you want to use the system, you have to change the path in the c code into your own path(function output_courses, readclass, readfile), or you will find that the system is not working, hahaha. 
 
+after doing all the stuff, command makefile again and input "python3 gui.py" in your program!
+if you haven't download the "word embedding package", please do not click “推薦課程” in the GUI.
+----------------------------------------------------------------------------------------------------------------------------------------
+
+# program_final
 The user interface allow as to search courses, and add courses you want, if you don't satisfied the course, you also can delete the courses. After you have selected your course done, you can preview the classtable and save it. There is a manual about the system.
+
 # searching
 If you want to search a course, just need to enter the ID of this course on the interface and click the searching button, we will find the course and display, notice that if you enter wrong course ID, we will have a notification that tell you we can't find the ID you typed.
 
@@ -18,6 +26,3 @@ If you want to check courses you select, just need to click preview_class button
 
 # save classtable 
 If you have checked the classtable, you can click save_class button, and we will help you to save the classtable as a .jpg file, and you can share your calsstable to your friends and discuss together!
-
-# warning
-Just notice that if you want to use the system, you have to change the path in the code, or you will find that the system is not working, hahaha. 
