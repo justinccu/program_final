@@ -11,7 +11,7 @@ After you have seen the course you want, you can click the add_course button, an
 If you have chosen a course that you don't want, you can list the course first and choose the course you want to drop, and just need to click the delete_coucrse button, we will help you to drop this course.
 
 # recommand course
-No idea what course you want to study? just put the keyword of this course, we will help you to list all of the courses about this keyword. For example, if you want to study the course about music, and you just need to enter keyword 'music', and we will list all the courses about music. 
+No idea what course you want to study? just put the keyword of this course, we will help you to list all of the courses about this keyword. For example, if you want to study the course about music, and you just need to enter keyword 'music', and we will list all the courses about music. But if you want to use this function, you have to download the model first, we will attach it on github.
 
 # preview course
 If you want to check courses you select, just need to click preview_class button, we will show you the classtable and the course name will listed on the position base on the time of the course. 
