@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <unistd.h>
 #include "import.h"
 #include "Person.h"
 
@@ -79,8 +80,13 @@ void sort_recommand(int num, char *vec)
 void output_courses(char *ctl)
 {
     FILE *file;
-
-    file = fopen("/Users/justinkim/Desktop/final_project/output.txt", "w+");
+    /*
+    char path[256];
+    getcwd(path, sizeof(path));
+    strcat(path, "/output.txt");
+    file = fopen(path, "w+");
+    */
+    file = fopen("/Users/justinkim/Desktop/program_final-main/final_project/output.txt", "w+");
     if (file == NULL)
     {
         printf("can't open file\n");

@@ -1,13 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <unistd.h>
 #include "import.h"
 #include "Person.h"
 
 void readclass()
 {
     FILE *fptr;
-    fptr = fopen("/Users/justinkim/Desktop/final_project/output.txt", "r");
+    /*
+    char path[256];
+    getcwd(path, sizeof(path));
+    strcat(path, "/output.txt");
+    fptr = fopen(path, "r");
+    */
+    fptr = fopen("/Users/justinkim/Desktop/program_final-main/final_project/output.txt", "r");
     if (fptr == NULL)
     {
         return;
@@ -45,7 +52,13 @@ void readclass()
 void readfile()
 {
     FILE *fptr;
-    fptr = fopen("/Users/justinkim/Desktop/final_project/courses_1.txt", "r");
+    /*
+    char path[256];
+    getcwd(path, sizeof(path));
+    strcat(path, "/courses_1.txt");
+    fptr = fopen(path, "r");
+    */
+    fptr = fopen("/Users/justinkim/Desktop/program_final-main/final_project/courses_1.txt", "r");
     if (fptr == NULL)
         printf("Error\n");
 
