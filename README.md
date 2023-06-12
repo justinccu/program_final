@@ -4,16 +4,16 @@ The user interface allow as to search courses, and add courses you want, if you 
 # searching
 If you want to search a course, just need to enter the ID of this course on the interface and click the searching button, we will find the course and display, notice that if you enter wrong course ID, we will have a notification that tell you we can't find the ID you typed.
 
-# add class
+# add course
 After you have seen the course you want, you can click the add_course button, and we will record the course information, so that if you want to check the courses you have selected, we can show it to you.
 
-# list course & delete class
+# list course & delete course
 If you have chosen a course that you don't want, you can list the course first and choose the course you want to drop, and just need to click the delete_coucrse button, we will help you to drop this course.
 
-# recommand class
+# recommand course
 No idea what course you want to study? just put the keyword of this course, we will help you to list all of the courses about this keyword. For example, if you want to study the course about music, and you just need to enter keyword 'music', and we will list all the courses about music. 
 
-# preview class
+# preview course
 If you want to check courses you select, just need to click preview_class button, we will show you the classtable and the course name will listed on the position base on the time of the course. 
 
 # save classtable 
