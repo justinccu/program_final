@@ -19,3 +19,5 @@ If you want to check courses you select, just need to click preview_class button
 # save classtable 
 If you have checked the classtable, you can click save_class button, and we will help you to save the classtable as a .jpg file, and you can share your calsstable to your friends and discuss together!
 
+# warning
+Just notice that if you want to use the system, you have to change the path in the code, or you will find that the system is not working, hahaha. 
