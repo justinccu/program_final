@@ -1,6 +1,7 @@
 ----------------------------------------------------------------------------------------------------------------------------------------
 # warning
 For your notice that if you want to use the system, you have to change the path in the c code into your own path(function output_courses, readclass, readfile), or you will find that the system is not working, hahaha. 
+* In Final_Project foled, this problem has been fixed~
 
 after doing all the stuff, command makefile again and input "python3 gui.py" in your program!
 if you haven't download the "word embedding package", please do not click “推薦課程” in the GUI.
