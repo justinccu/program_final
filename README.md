@@ -3,7 +3,8 @@
 For your notice that if you want to use the system, you have to change the path in the c code into your own path(function output_courses, readclass, readfile), or you will find that the system is not working, hahaha. 
 * In Final_Project folder, this problem has been fixed~
 
-After doing all the stuff, command "make" again(if it doesn't work, please enter:gcc -o test.out main.c Person.c import.c) and then input "python3 gui.py" in your command line!
+After doing all the stuff, command "make" again
+if it doesn't work, please enter: "gcc -o test.out main.c Person.c import.c" and then input "python3 gui.py" in your command line!
 if you haven't download the "word embedding package", please do not click “推薦課程” in the GUI.
 ----------------------------------------------------------------------------------------------------------------------------------------
 
