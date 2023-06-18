@@ -3,9 +3,9 @@ from PyQt5.QtWidgets import QListWidget, QMessageBox, QApplication, QWidget, QPu
 import subprocess
 from PyQt5.QtGui import QFont,  QPalette, QBrush, QPixmap
 import sys
+import numpy as np
 #from gensim.models import Word2Vec    Do "NOT" use it, only if you have downloaded our word embedding package
 #model = Word2Vec.load('word2vec.model')
-import numpy as np
 data = []
 
 
